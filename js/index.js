@@ -59,7 +59,6 @@ function createProduct() {
   let productName = document.querySelectorAll(".create-product input");
   let productTr = document.querySelector(".product").cloneNode(true);
 
-  console.log(productTr);
   
   productTr.querySelector(".name span").innerText = productName[0].value;
   productTr.querySelector(".price span").innerText = productName[1].value;
